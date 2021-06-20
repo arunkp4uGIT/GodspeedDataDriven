@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Basic Automation test">
+	<listeners>
+		<listener class-name="com.TRY.listeners.CustomListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+	<test name="Bank Manager Login Test">
+		<classes>
+			<class name="com.TRY.testcases.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Add Customer BM login">
+		<classes>
+			<class name="com.TRY.testcases.AddCustomerTest" />
+		</classes>
+	</test>
+	<test name="Open accounts">
+		<classes>
+			<class name="com.TRY.testcases.OpenAccountTest" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
