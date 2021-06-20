@@ -57,7 +57,8 @@ public class Base {
 					System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties");
 			or = new Properties();
 			or.load(fis);
-			log.info("OR properties loaded");
+			//new change for this version
+			log.info("OR properties loaded successfully");
 		} catch (FileNotFoundException e) {
 
 			e.printStackTrace();
@@ -68,29 +69,29 @@ public class Base {
 
 			browser = System.getenv("browser");
 		} else {
-			browser = config.getProperty("browser");}
-
-			// browser driver
-			config.setProperty("browser", browser);
-
-			if (config.getProperty("browser").equals("chrome")) {
-				System.setProperty("webdriver.chrome.driver",
-						System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
-				log.info("Chrome browser ready");
-				driver = new ChromeDriver();
-				driver.get(config.getProperty("testurl"));
-
-			} else if (config.getProperty("browser").equals("firefox")) {
-				System.setProperty("webdriver.gecko.driver",
-						System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\geckodriver.exe");
-				driver = new FirefoxDriver();
-				log.info("Firefox browser ready");
-				driver.get(config.getProperty("testurl"));
-			}
-			wait = new WebDriverWait(driver, 10);
-
+			browser = config.getProperty("browser");
 		}
-	
+
+		// browser driver
+		config.setProperty("browser", browser);
+
+		if (config.getProperty("browser").equals("chrome")) {
+			System.setProperty("webdriver.chrome.driver",
+					System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\chromedriver.exe");
+			log.info("Chrome browser ready");
+			driver = new ChromeDriver();
+			driver.get(config.getProperty("testurl"));
+
+		} else if (config.getProperty("browser").equals("firefox")) {
+			System.setProperty("webdriver.gecko.driver",
+					System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\geckodriver.exe");
+			driver = new FirefoxDriver();
+			log.info("Firefox browser ready");
+			driver.get(config.getProperty("testurl"));
+		}
+		wait = new WebDriverWait(driver, 10);
+
+	}
 
 	public static WebElement dropdown;
 

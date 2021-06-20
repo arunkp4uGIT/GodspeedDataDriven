@@ -14,20 +14,20 @@
       <![CDATA[<br>Verification Done : <br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-06-20T10:05:38Z" name="Basic Automation test" finished-at="2021-06-20T10:05:40Z" duration-ms="2829">
+  <suite started-at="2021-06-20T14:39:08Z" name="Basic Automation test" finished-at="2021-06-20T14:39:11Z" duration-ms="2918">
     <groups>
     </groups>
-    <test started-at="2021-06-20T10:05:38Z" name="Bank Manager Login Test" finished-at="2021-06-20T10:05:38Z" duration-ms="316">
+    <test started-at="2021-06-20T14:39:08Z" name="Bank Manager Login Test" finished-at="2021-06-20T14:39:09Z" duration-ms="416">
       <class name="com.TRY.testcases.LoginTest">
-        <test-method signature="loginAsManger()[pri:0, instance:com.TRY.testcases.LoginTest@393881f0]" started-at="2021-06-20T10:05:38Z" name="loginAsManger" finished-at="2021-06-20T10:05:38Z" duration-ms="295" status="PASS">
+        <test-method signature="loginAsManger()[pri:0, instance:com.TRY.testcases.LoginTest@7df60067]" started-at="2021-06-20T14:39:08Z" name="loginAsManger" finished-at="2021-06-20T14:39:09Z" duration-ms="395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAsManger -->
       </class> <!-- com.TRY.testcases.LoginTest -->
     </test> <!-- Bank Manager Login Test -->
-    <test started-at="2021-06-20T10:05:38Z" name="Add Customer BM login" finished-at="2021-06-20T10:05:39Z" duration-ms="966">
+    <test started-at="2021-06-20T14:39:09Z" name="Add Customer BM login" finished-at="2021-06-20T14:39:10Z" duration-ms="1009">
       <class name="com.TRY.testcases.AddCustomerTest">
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TRY.testcases.AddCustomerTest@61799544]" started-at="2021-06-20T10:05:38Z" name="addCustomer" data-provider="value" finished-at="2021-06-20T10:05:39Z" duration-ms="440" status="PASS">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TRY.testcases.AddCustomerTest@c27d163]" started-at="2021-06-20T14:39:09Z" name="addCustomer" data-provider="value" finished-at="2021-06-20T14:39:09Z" duration-ms="460" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,7 +56,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TRY.testcases.AddCustomerTest@61799544]" started-at="2021-06-20T10:05:39Z" name="addCustomer" data-provider="value" finished-at="2021-06-20T10:05:39Z" duration-ms="483" status="PASS">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TRY.testcases.AddCustomerTest@c27d163]" started-at="2021-06-20T14:39:09Z" name="addCustomer" data-provider="value" finished-at="2021-06-20T14:39:10Z" duration-ms="511" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,13 +87,13 @@
         </test-method> <!-- addCustomer -->
       </class> <!-- com.TRY.testcases.AddCustomerTest -->
     </test> <!-- Add Customer BM login -->
-    <test started-at="2021-06-20T10:05:39Z" name="Open accounts" finished-at="2021-06-20T10:05:40Z" duration-ms="1031">
+    <test started-at="2021-06-20T14:39:10Z" name="Open accounts" finished-at="2021-06-20T14:39:11Z" duration-ms="1055">
       <class name="com.TRY.testcases.OpenAccountTest">
-        <test-method is-config="true" signature="tearup()[pri:0, instance:com.TRY.testcases.OpenAccountTest@43effd89]" started-at="2021-06-20T10:05:31Z" name="tearup" finished-at="2021-06-20T10:05:38Z" duration-ms="6625" status="PASS">
+        <test-method is-config="true" signature="tearup()[pri:0, instance:com.TRY.testcases.OpenAccountTest@78c1a023]" started-at="2021-06-20T14:39:03Z" name="tearup" finished-at="2021-06-20T14:39:08Z" duration-ms="5329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearup -->
-        <test-method signature="openAccTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TRY.testcases.OpenAccountTest@43effd89]" started-at="2021-06-20T10:05:39Z" name="openAccTest" data-provider="value" finished-at="2021-06-20T10:05:40Z" duration-ms="1029" status="PASS">
+        <test-method signature="openAccTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.TRY.testcases.OpenAccountTest@78c1a023]" started-at="2021-06-20T14:39:10Z" name="openAccTest" data-provider="value" finished-at="2021-06-20T14:39:11Z" duration-ms="1052" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- openAccTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TRY.testcases.OpenAccountTest@43effd89]" started-at="2021-06-20T10:05:40Z" name="tearDown" finished-at="2021-06-20T10:05:41Z" duration-ms="801" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TRY.testcases.OpenAccountTest@78c1a023]" started-at="2021-06-20T14:39:11Z" name="tearDown" finished-at="2021-06-20T14:39:12Z" duration-ms="705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
