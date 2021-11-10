@@ -46,7 +46,8 @@ public class Base {
 					System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties");
 			config = new Properties();
 			config.load(fis);
-			log.info("Config properties loaded");
+			//branch test update
+			log.info("Config properties loaded successfully");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
